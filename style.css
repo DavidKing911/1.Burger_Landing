@@ -16,7 +16,7 @@
   font-display: swap;
 }
 
-/*? GLOBAL */
+/*! GLOBAL */
 
 body {
     margin: 0;
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0.9;
 }
 
-/*? HEADER */
+/*! HEADER */
 
 .header {
     padding: 25px 0;
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 1;
 }
 
-/*? HERO */
+/*! HERO */
 
 .hero {
     margin-top: -100px;
@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0.7;
 }
 
-/*? FOOD-LIST */
+/*! FOOD-LIST */
 
 .food-list {
     padding: 100px 0;
@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0.7;
 }
 
-/*? ORDER */
+/*! ORDER */
 
 .order {
     padding: 60px 0;
@@ -227,4 +227,80 @@ h1, h2, h3, h4, h5, h6 {
 
 .order__btn {
     margin-top: 10px;
+}
+
+/*! PRODUCT */
+
+.product {
+    padding: 150px 0;
+}
+
+.product .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.product__card {
+    padding: 60px 25px 60px 290px;
+    width: 555px;
+    min-height: 300px;
+    box-sizing: border-box;
+    background-color: #312F30;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product__card:nth-child(2n) {
+    padding: 60px 290px 60px 50px;
+}
+
+.product__card:nth-child(1) {
+    background-image: url("img/product-1.jpg");
+}
+
+.product__card:nth-child(2) {
+    background-image: url("img/product-2.jpg");
+}
+
+.product__card:nth-child(3) {
+    background-image: url("img/product-3.jpg");
+}
+
+.product__card:nth-child(4) {
+    background-image: url("img/product-4.jpg");
+}
+
+.product__title {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.product__desc {
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+.product__price {
+    margin-right: 5px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: #F6762C;
+}
+
+.product__old-price {
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: #F6762C;
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.product__btn {
+    margin-top: 10px;
+    width: 140px;
+    height: 40px;
+    font-size: 12px;
 }
