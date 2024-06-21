@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 240px 0;
     box-sizing: border-box;
     min-height: 100vh;
-    background-image: url("img/hero-bg.jpg");
+    background-image: url("../img/hero-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -258,19 +258,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .product__card:nth-child(1) {
-    background-image: url("img/product-1.jpg");
+    background-image: url("../img/product-1.jpg");
 }
 
 .product__card:nth-child(2) {
-    background-image: url("img/product-2.jpg");
+    background-image: url("../img/product-2.jpg");
 }
 
 .product__card:nth-child(3) {
-    background-image: url("img/product-3.jpg");
+    background-image: url("../img/product-3.jpg");
 }
 
 .product__card:nth-child(4) {
-    background-image: url("img/product-4.jpg");
+    background-image: url("../img/product-4.jpg");
 }
 
 .product__title {
@@ -320,12 +320,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .feedback__text {
     margin: 0;
-    width: 370px;
+    max-width: 370px;
     text-align: center;
 }
 
 .feedback__text::before {
-    content: url("img/icons/quote.svg");
+    content: url("../img/icons/quote.svg");
 }
 
 .feedback__desc {
@@ -406,13 +406,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer__link::before {
-    content: url("img/icons/mail.svg");
+    content: url("../img/icons/mail.svg");
     width: 12px;
     height: 12px;
 }
 
 .footer__link:nth-child(odd):before {
-    content: url("img/icons/global.svg");
+    content: url("../img/icons/global.svg");
 }
 
 .footer__list {
